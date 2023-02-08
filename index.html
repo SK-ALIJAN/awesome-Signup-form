@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="details">
+        <img src="https://t4.ftcdn.net/jpg/05/45/59/51/240_F_545595163_6a8lDVR3rnf9qfYqtHU6MMwqlAS1PWus.jpg" alt=""
+            id="beared-man">
+        <p>User's Details</p>
+        <div id="glaze"></div>
+        <div id="glaz2"></div>
+        <div class="Details">
+            <p>Name</p>
+            <p id="name-show"></p>
+        </div>
+
+        <div class="Details">
+            <p>Gmail Id</p>
+            <p id="gmail-show"></p>
+        </div>
+        <div class="Details">
+            <p>Password</p>
+            <p id="password-show"></p>
+
+        </div>
+
+        <button id="">Logout</button>
+    </div>
+
+    <main>
+        <p>Login Form</p>
+
+        <div id="lgs">
+            <p id="login">Login</p>
+            <p id="signup">Signup</p>
+        </div>
+
+        <div id="display">
+
+            <div id="for-login">
+                <form action="">
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="password" placeholder="Password" required>
+                    <div id="hide_show">
+                        <img src="https://cdn-icons-png.flaticon.com/128/6036/6036871.png" alt="" id="show">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9153/9153950.png" alt="" id="hide">
+                    </div>
+                    <p id="forgot">Forgot password?</p>
+                    <input type="submit" value="Login">
+                </form>
+                <p id="not-member">Not a member? <span>Signup Now</span></p>
+            </div>
+
+            <div id="for-signup">
+                <form action="">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="text" placeholder="Password" required>
+                    <div id="hide_show-forsignup">
+                        <img src="https://cdn-icons-png.flaticon.com/128/6036/6036871.png" alt="" id="show">
+                        <img src="https://cdn-icons-png.flaticon.com/128/9153/9153950.png" alt="" id="hide">
+                    </div>
+                    <input type="password" placeholder=" Confirm Password" required>
+                    <input type="checkbox" id="checkbox"><label for="Remember me">Remember Me</label>
+                    <input type="submit" value="Signup" id="signup-submit">
+                </form>
+                <p>Already a member? <span>Login</span> </p>
+            </div>
+
+        </div>
+    </main>
+</body>
+<script src="login.js"></script>
+
+</html>
